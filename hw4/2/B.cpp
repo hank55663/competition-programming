@@ -70,6 +70,6 @@ int main(){
     while(scanf("%lf %lf %lf %lf %lf %lf",&p[0].x,&p[0].y,&p[1].x,&p[1].y,&p[2].x,&p[2].y)!=EOF){
         mcc.init(3,p);
         pair<pdd,double> pp=mcc.solve();
-        printf("inf inf inf\n");
+        printf("%.12f %.12f %.12f\n",pp.x.x,pp.x.y,sqrt(pp.y));
     }
 }
