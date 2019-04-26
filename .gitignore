@@ -1,0 +1,6 @@
+*.in
+*.out
+*.py
+/exam
+*generator*
+*.txt
